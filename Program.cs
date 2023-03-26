@@ -32,17 +32,25 @@ static void Menu()
 //metodo abrir
 static void Abrir()
 {
+    //======================input operador======================
     Console.Clear();
     Console.WriteLine("Qual o caminho do arquivo?");
+
+    //======================inicializacao das variaveis======================
     string path = Console.ReadLine();
 
+    //======================controle======================
     //sempre que for ler ou salvar um arquivo usa o using
     using (var file = new StreamReader(path))
     {
         string text = file.ReadToEnd();
         Console.WriteLine(text);
     }
+
+    //escrever para pular espaco
     Console.WriteLine("");
+
+    //ler para pular espaco
     Console.ReadLine();
     Menu();
 }
