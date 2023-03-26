@@ -4,9 +4,6 @@ using System.IO;
 //iniciando a funcao menu
 Menu();
 
-
-
-
 //metodo manu
 static void Menu()
 {
