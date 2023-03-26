@@ -1,4 +1,4 @@
-# StopWatch
+# TextEditor
 
 Programa feito por meio da prática do curso do Balta.io;
 
